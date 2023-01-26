@@ -1,2 +1,2 @@
-# Form
-I have created the form provided by rgdunes by using HTML5 and CSS3.
+# HTML and CSS Projects
+This repository contains two projects of input forms.
