@@ -10,22 +10,22 @@
 </head>
 
 <body>
-    <form>
+    <form class="form">
         <div>
-            <div class="square"> 1 </div>
-            <div class="fields"> Candidate Info</div>
+            <div class="form__green_square"> 1 </div>
+            <div class="form__fields"> Candidate Info</div>
         </div>
 
-        <input type="text" placeholder="Your Name*" class="name">
+        <input class="form__input" type="text" placeholder="Your Name*" required>
         <br>
-        <input type="text" placeholder="Your Email*" class="name">
+        <input class="form__input" type="text" placeholder="Your Email*" required>
         <br>
-        <textarea cols="30" rows="2" placeholder="About Yourself"></textarea>
+        <textarea class="form__input" cols="30" rows="2" placeholder="About Yourself"></textarea>
         <br>
 
         <p id="interests">Interests:</p>
 
-        <select id="select">
+        <select id="select" class="form__input">
             <option value="Fishkeeping">Fishkeeping</option>
             <option value="Photography">Photography</option>
             <option value="Blogging">Blogging</option>
@@ -33,15 +33,15 @@
         </select>
         <br>
         <div>
-            <div class="square"> 2 </div>
-            <div class="fields"> Additional Info</div>
+            <div class="form__green_square"> 2 </div>
+            <div class="form__fields"> Additional Info</div>
         </div>
-        <textarea name="" id="" cols="30" rows="2" placeholder="About Your School"></textarea>
+        <textarea class="form__input" name="" id="" cols="30" rows="2" placeholder="About Your School"></textarea>
         <br>
         <br>
 
 
-        <button id="btn">Apply</button>
+        <button id="btn" class="form__input">Apply</button>
     </form>
 </body>
 

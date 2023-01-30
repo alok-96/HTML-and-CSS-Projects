@@ -1,4 +1,4 @@
-form {
+.form {
   background-color: rgb(244, 244, 244);
   width: 50%;
   padding: 20px 10px 20px 35px;
@@ -6,11 +6,7 @@ form {
   position: center;
 }
 
-input,
-textarea,
-select,
-button,
-option {
+.form__input{
   background-color: rgb(229, 229, 229);
   color: rgb(42, 42, 42);
   border: 1px solid rgb(229, 229, 229);
@@ -31,7 +27,7 @@ option {
   width: 93%;
 }
 
-.fields {
+.form__fields {
   font-weight: bold;
   font-size: 25px;
   color: rgb(75, 75, 75);
@@ -51,7 +47,7 @@ option {
   width:93%;
 }
 
-.square {
+.form__green_square {
   width: 30px;
   height:30px;
   border-radius: 50%;

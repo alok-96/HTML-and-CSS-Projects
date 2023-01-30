@@ -10,24 +10,24 @@
 </head>
 
 <body>
-    <form>
-        <div class="option-div">
-            <p class="topic">Full Name<span class="star">*</span></p>
+    <form class="form">
+        <div class="form__entries">
+            <p class="form__fields">Full Name<span class="form__star">*</span></p>
 
-            <input type="text" placeholder="First" class="name">
-            <input type="text" placeholder="Last" class="name">
+            <input class="form__input" type="text" placeholder="First" class="form__username" required>
+            <input class="form__input" type="text" placeholder="Last" class="form__username" required>
             <br>
         </div>
-        <div class="option-div">
-            <p class="topic">Email<span class="star">*</span></p>
+        <div class="form__entries">
+            <p class="form__fields">Email<span class="form__star">*</span></p>
 
-            <input type="email">
+            <input class="form__input" type="email" required>
             <br>
         </div>
-        <div class="option-div">
-            <p class="topic">Subject<span class="star">*</span></p>
+        <div class="form__entries">
+            <p class="form__fields">Subject<span class="form__star">*</span></p>
 
-            <select>
+            <select class="form__subject_options">
                 <option value="Advertise">Advertise</option>
                 <option value="Accounts">Accounts</option>
                 <option value="Management">Management</option>
@@ -36,10 +36,10 @@
             <br>
         </div>
 
-        <div class="option-div">
-            <p class="topic">Your Message<span class="star">*</span></p>
+        <div class="form__entries">
+            <p class="form__fields">Your Message<span class="form__star">*</span></p>
 
-            <textarea name="" id="" cols="45" rows="10"></textarea>
+            <textarea class="form__input" name="" id="" cols="45" rows="10" required></textarea>
             <br>
         </div>
 
